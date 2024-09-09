@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keyword"
+      content="Hackerman,Renca, el mejor de todos los tiempos, desrrollador, "
+    />
+    <meta
+      name="description"
+      content="Hackerman, el mejor desarrollador de todos los tiempos, conoce su historia, su vida y su obra"
+    />
+    <meta name="author" content="Hackerman" />
+    <title>CvBook</title>
+    <link rel="icon" href="./public/logo.ico" type="image/x-icon" />
+    <style>
+      .contenedor-tabla {
+        width: 300px;
+        max-width: 300px;
+        overflow: scroll;
+      }
+      table {
+        margin: 30px;
+      }
+
+      th {
+        background-color: #f2f2f2;
+        text-align: left;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- ALT + shiff + A     comentar -->
+      <!-- emmet ej: ul>li>ol>li*3 -->
+      <ul>
+        <li>Home</li>
+        <li>
+          <ol>
+            <li>page 1</li>
+            <li>page 2</li>
+            <li>
+              <a href="/contacto.html" title="CvBook-contacto"> contacto </a>
+            </li>
+          </ol>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <h1>Título</h1>
+      <h2>subtítulo</h2>
+      <h3>nombre</h3>
+      <section>
+        <h4>HakerMan</h4>
+        <!-- <etiqueta de apertura> contenido </ etiqueta de cierre> -->
+        <!-- <etiqueta de autocierre /> -->
+        <img
+          src="./public/hakerman.jpg"
+          alt="imagen de persona seca."
+          width="200px"
+          style="aspect-ratio: 4/3"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+          deleniti recusandae! Exercitationem officia corrupti blanditiis eum
+          vitae voluptate enim dignissimos. Corporis labore veritatis officiis
+          facilis excepturi libero esse impedit ea.
+        </p>
+      </section>
+      <section>
+        <h4>titulo 2</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, vitae
+          commodi. Pariatur, sit velit, ut at iste animi temporibus possimus, ex
+          quam quidem magni iure debitis molestiae dolores eius reiciendis?
+        </p>
+      </section>
+      <section>
+        <h2>Stack</h2>
+        <article class="contenedor-tabla">
+          <table>
+            <thead>
+              <tr>
+                <th>tec.</th>
+                <th>nivel</th>
+                <th>tec.</th>
+                <th>nivel</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Java</td>
+                <td>experto</td>
+                <td>Java</td>
+                <td>experto</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>Experto</td>
+                <td>JavaScript</td>
+                <td>Experto</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Java</td>
+                <td>experto</td>
+                <td>Java</td>
+                <td>experto</td>
+              </tr>
+            </tfoot>
+          </table>
+        </article>
+      </section>
+    </main>
+    <footer><a href="www.google.com">@bymax - 2024</a></footer>
+  </body>
+</html>
