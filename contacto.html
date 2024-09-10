@@ -34,39 +34,61 @@
       <section>
         <h3>Contactame</h3>
         <article>
-          <label for="nombre">Nombre</label>
-          <input
-            type="text"
-            name="nombre"
-            id="nombre"
-            placeholder="ingresa tu nombre"
-          />
-          <br />
-          <label for="edad">Edad</label>
-          <input
-            type="number"
-            name="edad"
-            id="edad"
-            placeholder="Ingresa tu edad"
-          />
-          <br />
-          <label for="email">E-mail</label>
-          <input
-            type="email"
-            name="correo"
-            id="email"
-            placeholder="Ingresa tu correo"
-          />
-          <br />
-          <label for="comentario">Comentario</label>
-          <textarea
-            name="comentario"
-            id="comentario"
-            placeholder="Ingresa tu comentario"
-          ></textarea>
+          <form action="/index.html" method="post">
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="ingresa tu nombre"
+              required
+            />
+            <br />
+            <label for="edad">Edad</label>
+            <input
+              type="number"
+              name="edad"
+              id="edad"
+              placeholder="Ingresa tu edad"
+            />
+            <br />
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              name="correo"
+              id="email"
+              placeholder="Ingresa tu correo"
+            />
+            <br />
+            <label for="comentario">Comentario</label>
+            <textarea
+              name="comentario"
+              id="comentario"
+              placeholder="Ingresa tu comentario"
+            ></textarea>
+            <br />
+            <label for="check">eres un robot? </label>
+            <input type="checkbox" name="check" id="check" required />
+            <br />
+            <input type="submit" />
+          </form>
+          <button>no enviar</button>
         </article>
       </section>
     </main>
     <footer>@bymax - 2024</footer>
   </body>
 </html>
+<!-- 
+elemento: <etiqueta de apertura>contenido</etiqueta de cierre>
+    etiqueta de auto cierre: <etiqueta de auto cierre />
+    atributos en etiquetas: <etiqueta atributo="valor" >contenido</etiqueta>
+                                         |
+                                        ID
+                                        NAME
+                                        STYLE
+                                        CLASS
+                                        HREF
+                                        SRC
+                                        FOR...
+-->
